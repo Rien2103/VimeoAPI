@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Font size-->
+    <dimen name="title_h1">28sp</dimen>
+    <dimen name="title_h2">24sp</dimen>
+    <dimen name="title_h3">20sp</dimen>
+    <dimen name="title_h4">16sp</dimen>
+    <dimen name="title_h5">12sp</dimen>
+    <dimen name="title_h6">10sp</dimen>
+    <dimen name="title_h7">8sp</dimen>
+    <dimen name="title_h8">7sp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_half">8dp</dimen>
+    <dimen name="margin_double">32dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_half">8dp</dimen>
+    <dimen name="padding_double">32dp</dimen>
+
+</resources>

@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/title_h4</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="@style/AppTheme.Button">
+        <item name="android:background">@drawable/btn_primary</item>
+    </style>
 </resources>

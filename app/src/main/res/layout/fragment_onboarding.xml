@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/shadow"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/onboarding_logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/onboarding_photo_btn"
+            style="@style/ButtonPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_half"
+            android:layout_weight="1"
+            android:text="@string/btn_photo" />
+
+        <Button
+            android:id="@+id/onboarding_video_btn"
+            style="@style/ButtonPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_half"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:layout_weight="1"
+            android:text="@string/btn_video" />
+
+    </LinearLayout>
+
+</RelativeLayout>

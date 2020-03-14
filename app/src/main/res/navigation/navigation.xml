@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_content"
+    app:startDestination="@id/onBoardingFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.vimeoapi.ui.onboarding.OnBoardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_videoMainFragment"
+            app:destination="@id/videoMainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_onBoardingFragment_to_photoMainFragment"
+            app:destination="@id/photoMainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/videoMainFragment"
+        android:name="com.example.vimeoapi.ui.video.VideoMainFragment"
+        android:label="VideoMainFragment"
+        tools:layout="@layout/fragment_video_main"/>
+
+    <fragment
+        android:id="@+id/photoMainFragment"
+        android:name="com.example.vimeoapi.ui.photo.PhotoMainFragment"
+        android:label="PhotoMainFragment"
+        tools:layout="@layout/fragment_photo_main"/>
+</navigation>

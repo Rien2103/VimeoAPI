@@ -3,6 +3,7 @@
 
     <string name="btn_photo">photo</string>
     <string name="btn_video">video</string>
+    <string name="btn_play">play</string>
     <string name="video_title">Videos</string>
     <string name="photo_title">Photos</string>
 

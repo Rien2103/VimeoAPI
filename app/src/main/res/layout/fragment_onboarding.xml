@@ -12,12 +12,13 @@
         android:src="@drawable/shadow"
         android:layout_alignParentBottom="true"/>
 
+
     <ImageView
         android:id="@+id/onboarding_logo_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:src="@drawable/logo" />
-
 
     <LinearLayout
         android:layout_width="match_parent"

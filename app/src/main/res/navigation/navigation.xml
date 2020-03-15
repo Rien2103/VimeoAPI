@@ -32,7 +32,23 @@
         android:id="@+id/videoMainFragment"
         android:name="com.example.vimeoapi.ui.video.VideoMainFragment"
         android:label="VideoMainFragment"
-        tools:layout="@layout/fragment_video_main"/>
+        tools:layout="@layout/fragment_video_main">
+
+    <action
+        android:id="@+id/action_videoMainFragment_to_videoPlayFragment"
+        app:destination="@id/videoPlayFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoPlayFragment"
+        android:name="com.example.vimeoapi.ui.video.VideoPlayFragment"
+        android:label="VideoPlayFragment"
+        tools:layout="@layout/fragment_video_play"/>
 
     <fragment
         android:id="@+id/photoMainFragment"
